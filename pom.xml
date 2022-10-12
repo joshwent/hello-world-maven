@@ -86,10 +86,10 @@
           </execution>
         </executions>
         <configuration>
-          <keystore>/path/to/the/keystore</keystore>
-          <alias>alias1</alias>
-          <!-- <storepass>Store password</storepass>
-          <keypass>Key password</keypass> -->
+          <keystore>${keystore}</keystore>
+          <alias>${alias}</alias>
+          <storepass>${storePass}</storepass>
+          <keypass>${keyPass}</keypass>
         </configuration>
       </plugin>
     </plugins>
